@@ -23,7 +23,7 @@ export default function LandingPage() {
   const [selectedAnswers, setSelectedAnswers] = useState<string[]>([]);
   const [overallProgress, setOverallProgress] = useState(0);
 
-  // Personal information state
+  // New state for personal information
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [phoneNumber, setPhoneNumber] = useState('')
@@ -33,13 +33,13 @@ export default function LandingPage() {
     {
       id: 'budget',
       question: 'What is your budget for buying a home? (Select all that apply)',
-      options: ['Under $400,000', '$400,000-$600,000', '$600,000-$800,000', '$800,000-$1,000,000', '$1,000,000-$1,500,000', '$1,500,000+'],
+      options: ['$200,000-$400,000', '$400,000-$600,000', '$600,000-$800,000', '$800,000-$1,000,000', '$1,000,000-$1,500,000', '$1,500,000-$2,000,000', '$2,000,000+'],
       multiple: true,
     },
     {
       id: 'homeType',
       question: 'What type of home are you interested in? (Select all that apply)',
-      options: ['Single-family home', 'Condo', 'Townhouse', 'Multi-family home', 'Luxury estate', 'Investment property'],
+      options: ['Single-family detached', 'Semi-detached', 'Townhouse', 'Condo/Apartment', 'Duplex', 'Bungalow', 'Split-level', 'Cottage/Cabin', 'Mobile home', 'Luxury estate'],
       multiple: true,
     },
     {
@@ -48,27 +48,47 @@ export default function LandingPage() {
       options: ['1', '2', '3', '4', '5+'],
     },
     {
+      id: 'bathrooms',
+      question: 'How many bathrooms do you need?',
+      options: ['1', '1.5', '2', '2.5', '3+'],
+    },
+    {
       id: 'location',
-      question: 'Which area of Ottawa interests you most?',
-      options: ['Downtown', 'West End', 'East End', 'South End', 'Kanata', 'Orleans', 'Other'],
+      question: 'What is your preferred location?',
+      type: 'text',
     },
     {
       id: 'timeline',
-      question: 'When are you looking to move?',
-      options: ['Immediately', 'Within 3 months', '3-6 months', '6-12 months', 'Just exploring'],
+      question: 'When are you looking to move in?',
+      options: ['ASAP', 'Within 1 month', '1-3 months', '3-6 months', '6+ months'],
     },
     {
       id: 'preApproval',
       question: 'Have you been pre-approved for a mortgage?',
-      options: ['Yes', 'No', 'In process'],
-    }
+      options: ['Yes', 'No', 'Not yet, but I\'m working on it'],
+    },
+    {
+      id: 'agentContract',
+      question: 'Are you currently under contract with a real estate agent?',
+      options: ['Yes', 'No'],
+    },
   ]
 
   const sellQuestions: Question[] = [
     {
       id: 'propertyType',
       question: 'What type of property are you selling?',
-      options: ['Single-family home', 'Condo', 'Townhouse', 'Multi-family home', 'Luxury estate'],
+      options: ['Single-family home', 'Condo', 'Townhouse', 'Multi-family home', 'Other'],
+    },
+    {
+      id: 'bedrooms',
+      question: 'How many bedrooms does your property have?',
+      options: ['1', '2', '3', '4', '5+'],
+    },
+    {
+      id: 'bathrooms',
+      question: 'How many bathrooms does your property have?',
+      options: ['1', '1.5', '2', '2.5', '3+'],
     },
     {
       id: 'location',
@@ -77,8 +97,8 @@ export default function LandingPage() {
     },
     {
       id: 'timeline',
-      question: 'When would you like to sell?',
-      options: ['Immediately', 'Within 3 months', '3-6 months', '6-12 months', 'Just exploring'],
+      question: 'When are you looking to sell?',
+      options: ['ASAP', 'Within 1 month', '1-3 months', '3-6 months', '6+ months'],
     },
     {
       id: 'reason',
@@ -86,38 +106,48 @@ export default function LandingPage() {
       options: ['Upgrading', 'Downsizing', 'Relocating', 'Investment', 'Other'],
     },
     {
-      id: 'priceExpectation',
-      question: 'What is your expected selling price range?',
-      options: ['Under $400,000', '$400,000-$600,000', '$600,000-$800,000', '$800,000-$1,000,000', '$1,000,000+'],
-    }
+      id: 'agentContract',
+      question: 'Are you currently under contract with a real estate agent?',
+      options: ['Yes', 'No'],
+    },
   ]
 
   const rentQuestions: Question[] = [
     {
       id: 'budget',
       question: 'What is your monthly budget for rent?',
-      options: ['Under $1,500', '$1,500-$2,000', '$2,000-$2,500', '$2,500-$3,000', '$3,000+'],
-    },
-    {
-      id: 'propertyType',
-      question: 'What type of rental property are you looking for?',
-      options: ['Apartment', 'Condo', 'House', 'Townhouse', 'Basement unit'],
+      options: ['Under $1000', '$1000-$1500', '$1500-$2000', '$2000-$2500', '$2500+'],
     },
     {
       id: 'bedrooms',
-      question: 'How many bedrooms do you need?',
+      question: 'How many bedrooms are you looking for?',
       options: ['Studio', '1', '2', '3', '4+'],
     },
     {
+      id: 'bathrooms',
+      question: 'How many bathrooms do you need?',
+      options: ['1', '1.5', '2', '2.5', '3+'],
+    },
+    {
       id: 'location',
-      question: 'Preferred location in Ottawa?',
-      options: ['Downtown', 'West End', 'East End', 'South End', 'Kanata', 'Orleans', 'Other'],
+      question: 'What is your preferred location?',
+      type: 'text',
+    },
+    {
+      id: 'petFriendly',
+      question: 'Do you need a pet-friendly rental?',
+      options: ['Yes', 'No'],
     },
     {
       id: 'timeline',
       question: 'When do you need to move in?',
-      options: ['Immediately', 'Within 1 month', '1-2 months', '2-3 months', '3+ months'],
-    }
+      options: ['ASAP', 'Within 1 month', '1-3 months', '3-6 months', '6+ months'],
+    },
+    {
+      id: 'agentContract',
+      question: 'Are you currently under contract with a real estate agent?',
+      options: ['Yes', 'No'],
+    },
   ]
 
   const questions = userType === 'buy'
@@ -153,7 +183,7 @@ export default function LandingPage() {
         setOverallProgress(100);
       }
     }
-  }
+  };
 
   const handleBack = () => {
     if (step > 0) {
@@ -170,7 +200,7 @@ export default function LandingPage() {
       setSelectedAnswers([]);
       setOverallProgress(0);
     }
-  }
+  };
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
@@ -223,16 +253,22 @@ export default function LandingPage() {
 
   const validatePhoneNumber = (number: string) => {
     try {
-      const phoneNumber = parsePhoneNumber(number, 'CA')
-      if (phoneNumber && isValidPhoneNumber(phoneNumber.number, 'CA')) {
+      const phoneNumber = parsePhoneNumber(number, 'US')
+      if (phoneNumber && isValidPhoneNumber(phoneNumber.number, 'US')) {
         setPhoneError('')
         return true
       } else {
-        setPhoneError('Please enter a valid Canadian phone number')
-        return false
+        const canadaPhoneNumber = parsePhoneNumber(number, 'CA')
+        if (canadaPhoneNumber && isValidPhoneNumber(canadaPhoneNumber.number, 'CA')) {
+          setPhoneError('')
+          return true
+        } else {
+          setPhoneError('Please enter a valid US or Canadian phone number')
+          return false
+        }
       }
     } catch {
-      setPhoneError('Please enter a valid Canadian phone number')
+      setPhoneError('Please enter a valid US or Canadian phone number')
       return false
     }
   }
@@ -338,7 +374,7 @@ export default function LandingPage() {
                 <div className="grid grid-cols-2 gap-3 mt-4">
                   {currentQuestion.options.map((option) => (
                     <button
-                key={option}
+                      key={option}
                       type="button"
                       onClick={() => handleAnswer(option)}
                       className={`px-3 py-2 text-sm border border-gray-300 rounded-md text-gray-700 hover:bg-gray-100 hover:text-gray-900 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 ${selectedAnswers.includes(option) ? 'bg-gray-200' : ''}`}
