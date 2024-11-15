@@ -1,0 +1,233 @@
+[33mcommit 675089554d76af985dd794ef5035974349bd93c8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Samaksh Gupta <samaksh.gupta@iproov.com>
+Date:   Thu Nov 7 22:02:14 2024 +0530
+
+    Use scopes.
+
+[33mcommit e4c11a5d88455eb7156b6c397dbf7078c1decc49[m
+Author: Samaksh Gupta <samaksh.gupta@iproov.com>
+Date:   Thu Nov 7 21:59:02 2024 +0530
+
+    Append data to google sheets.
+
+[33mcommit 08ac208d69feb9849ed3e01746cf2321dd4fe2c8[m
+Author: taranmundkar <taranmundkar@ttmunlimited.com>
+Date:   Wed Nov 6 18:24:19 2024 +0530
+
+    g
+
+[33mcommit 2096c57f70d52ddf178e493f796059e1ff2f1a59[m
+Author: taranmundkar <taranmundkar@ttmunlimited.com>
+Date:   Wed Nov 6 18:21:51 2024 +0530
+
+    Update route.ts
+
+[33mcommit 4322abd416d8de0fa30459b1a2b6f8b2350aadde[m
+Author: taranmundkar <taranmundkar@ttmunlimited.com>
+Date:   Wed Nov 6 18:19:00 2024 +0530
+
+    Update route.ts
+
+[33mcommit 73d520a8f4fdbd30dbc1091d08a7b5f388e4da63[m
+Author: taranmundkar <taranmundkar@ttmunlimited.com>
+Date:   Wed Nov 6 18:15:58 2024 +0530
+
+    Update route.ts
+
+[33mcommit 68772d9ea9745d187ad5c2e116884adc2dd76b23[m
+Author: taranmundkar <taranmundkar@ttmunlimited.com>
+Date:   Wed Nov 6 18:13:26 2024 +0530
+
+    k
+
+[33mcommit 24bb60bed3d97745e3bfe69009ca9548d4f9fb5f[m
+Author: taranmundkar <taranmundkar@ttmunlimited.com>
+Date:   Wed Nov 6 18:08:17 2024 +0530
+
+    Update route.ts
+
+[33mcommit 37d5e324894258068aa4b13f40a576a47c70a5a4[m
+Author: taranmundkar <taranmundkar@ttmunlimited.com>
+Date:   Wed Nov 6 17:54:06 2024 +0530
+
+    Update route.ts
+
+[33mcommit a5bcbf74183cd5239d4acf3d3c5c55ae47786435[m
+Author: taranmundkar <taranmundkar@ttmunlimited.com>
+Date:   Wed Nov 6 17:48:18 2024 +0530
+
+    new
+
+[33mcommit 4427034cb83d6455ae2e623ce0e6e7f2c8594aa4[m
+Author: taranmundkar <taranmundkar@ttmunlimited.com>
+Date:   Wed Nov 6 17:44:35 2024 +0530
+
+    k
+
+[33mcommit d596b8c353737af3928572c6219810eb66a23ce0[m
+Author: taranmundkar <taranmundkar@ttmunlimited.com>
+Date:   Wed Nov 6 17:43:00 2024 +0530
+
+    k
+
+[33mcommit 3dff23519d9f1a894d3709b95702e9fd4f177dae[m
+Author: taranmundkar <taranmundkar@ttmunlimited.com>
+Date:   Wed Nov 6 17:39:09 2024 +0530
+
+    new
+
+[33mcommit 653bd816d877fe9f28cbcbe1a335af732cc58cee[m
+Author: taranmundkar <taranmundkar@ttmunlimited.com>
+Date:   Wed Nov 6 17:35:15 2024 +0530
+
+    Update route.ts
+
+[33mcommit 7dd0caa51a70e9ed8f3b937ac9e347de51ed7b91[m
+Author: taranmundkar <taranmundkar@ttmunlimited.com>
+Date:   Wed Nov 6 17:28:57 2024 +0530
+
+    k
+
+[33mcommit 0630da39757b7279e6b0f5058bbd66a34c2509ce[m
+Author: taranmundkar <taranmundkar@ttmunlimited.com>
+Date:   Wed Nov 6 17:26:05 2024 +0530
+
+    k
+
+[33mcommit 3ccc513ebf980cab0c54b57664640e198e870d86[m
+Author: taranmundkar <taranmundkar@ttmunlimited.com>
+Date:   Wed Nov 6 17:21:09 2024 +0530
+
+    k
+
+[33mcommit adb70ec39071a55ec4ba66ec37e5c52d663fa6dd[m
+Author: taranmundkar <taranmundkar@ttmunlimited.com>
+Date:   Wed Nov 6 17:14:47 2024 +0530
+
+    bjk
+
+[33mcommit b853db63afba33fd642a48219fdbc0c2d50fccfc[m
+Author: taranmundkar <taranmundkar@ttmunlimited.com>
+Date:   Wed Nov 6 17:12:08 2024 +0530
+
+    done
+
+[33mcommit a632d09bd3b54421a9e1458a3bc0855286829e4e[m
+Author: taranmundkar <taranmundkar@ttmunlimited.com>
+Date:   Wed Nov 6 17:08:29 2024 +0530
+
+    Update route.ts
+
+[33mcommit ed0cf4c688ba38dcfd59ea188aa8454a3e4814cf[m
+Author: taranmundkar <taranmundkar@ttmunlimited.com>
+Date:   Wed Nov 6 17:04:55 2024 +0530
+
+    k
+
+[33mcommit 36eac751ff7f6d71b93ea76097b4b5a9975decd8[m
+Author: taranmundkar <taranmundkar@ttmunlimited.com>
+Date:   Wed Nov 6 17:02:22 2024 +0530
+
+    done
+
+[33mcommit 32ab1b89ded07132c532a62b285f66c7e953ccde[m
+Author: taranmundkar <taranmundkar@ttmunlimited.com>
+Date:   Wed Nov 6 16:58:45 2024 +0530
+
+    done
+
+[33mcommit 24a080fb7222ede28c51f36f62163437f53b8dd8[m
+Author: taranmundkar <taranmundkar@ttmunlimited.com>
+Date:   Wed Nov 6 16:52:59 2024 +0530
+
+    j
+
+[33mcommit 09a4e822e4c3baf73d07ce196a971b292c9145c2[m
+Author: taranmundkar <taranmundkar@ttmunlimited.com>
+Date:   Wed Nov 6 16:48:02 2024 +0530
+
+    push
+
+[33mcommit 857fdb2eebca2886395493452dc9e3de1aeeb592[m
+Author: Samaksh Gupta <samaksh.gupta@iproov.com>
+Date:   Wed Nov 6 16:36:02 2024 +0530
+
+    Fix.
+
+[33mcommit b7c0c1dbc9dd4206504fdf84d92401fc4655a02b[m
+Author: Samaksh Gupta <samaksh.gupta@iproov.com>
+Date:   Wed Nov 6 16:22:10 2024 +0530
+
+    Updated libraries.
+
+[33mcommit 3e27923f850c956ee67c93a817c4c203948d3401[m
+Author: taranmundkar <taranmundkar@ttmunlimited.com>
+Date:   Wed Nov 6 15:07:05 2024 +0530
+
+    updates
+
+[33mcommit 2dde8af39433e9b643d280b4c69cd8fecc70c427[m
+Author: taranmundkar <taranmundkar@ttmunlimited.com>
+Date:   Wed Nov 6 14:49:49 2024 +0530
+
+    Create api
+
+[33mcommit c385e2209e34d80336d37146450f0dd217d11a2d[m
+Author: taranmundkar <taranmundkar@ttmunlimited.com>
+Date:   Wed Nov 6 14:47:57 2024 +0530
+
+    Delete src/api
+
+[33mcommit 2cdf69e0ea08cbf0c8793a7420234fc99b4a6295[m
+Author: taranmundkar <taranmundkar@ttmunlimited.com>
+Date:   Wed Nov 6 14:47:40 2024 +0530
+
+    Create api
+
+[33mcommit 830aa7e6e6a4edeaa96e9c193ef1a54f9646c588[m
+Author: taranmundkar <taranmundkar@ttmunlimited.com>
+Date:   Fri Oct 25 14:58:47 2024 +0530
+
+    page.tsx
+
+[33mcommit 409738e3c2c0f39ba5bb0a13b2c836e583d3c76b[m
+Author: taranmundkar <taranmundkar@ttmunlimited.com>
+Date:   Fri Oct 25 14:49:01 2024 +0530
+
+    page.tsx
+
+[33mcommit cb5ef8018c6033e152787b8711533d4f2ca2f8a7[m
+Author: taranmundkar <taranmundkar@ttmunlimited.com>
+Date:   Thu Oct 24 19:00:27 2024 +0530
+
+    Update page.tsx
+
+[33mcommit 8a6e33c6f8d8e03ad28e95d8ba2ad2ba0e379d4a[m
+Author: Samaksh Gupta <samaksh.gupta@iproov.com>
+Date:   Thu Oct 24 16:24:44 2024 +0530
+
+    Fixed progress file.
+
+[33mcommit a251608d4d90a363dbaaf633fb903dea4d83b815[m
+Author: Samaksh Gupta <samaksh.gupta@iproov.com>
+Date:   Thu Oct 24 16:20:16 2024 +0530
+
+    Set types.
+
+[33mcommit 2396f1204177955c94bea5a823ccb33adf08c76c[m
+Author: Samaksh Gupta <samaksh.gupta@iproov.com>
+Date:   Thu Oct 24 16:14:48 2024 +0530
+
+    Remove ts ignore.
+
+[33mcommit d40ab7bd0c2233923455c6a78f2e220725e361c0[m
+Author: Samaksh Gupta <samaksh.gupta@iproov.com>
+Date:   Wed Oct 23 00:24:34 2024 +0530
+
+    first commit.
+
+[33mcommit 94946b02345d36bd9e4c2f3b806794d5d8119e41[m
+Author: Samaksh Gupta <samaksh.gupta@iproov.com>
+Date:   Wed Oct 23 00:07:56 2024 +0530
+
+    Initial commit from Create Next App
